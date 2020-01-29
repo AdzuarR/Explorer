@@ -1,0 +1,18 @@
+==== EXPLORER ====
+
+objectives :
+
+A small adventure game like zelda with a home-made motor build from scratch
+with javascript. Maybee a bit of php.
+- Map, player, ennemy, objet, quest
+
+ALPHA 1 :
+- Objectives :
+    - Functionalities to print a map of any width and height
+    - Functionalities to put player on the map
+
+- Test for alpha 1 :
+
+-Object map
+-Object case
+-Object player
