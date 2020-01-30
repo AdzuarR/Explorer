@@ -4,6 +4,7 @@ class Case {
   constructor() {
       this.name = "default";
       this.src = 'https://images-na.ssl-images-amazon.com/images/I/61QX5rSzAsL._AC_SX679_.jpg'
+      this.player = false;
   }
 
   getNom() {
@@ -14,10 +15,19 @@ class Case {
   }
   toImg(width, height){
     let img = document.createElement('img');
+    if (this.player == true) {
+      img.setAttribute('src', 'https://vignette.wikia.nocookie.net/characters/images/f/fc/025Pikachu_OS_anime_5.png/revision/latest/scale-to-width-down/340?cb=20141229045147')
+    }
+    else {
     img.setAttribute('src', this.src);
+  }
     img.setAttribute('width', width);
     img.setAttribute('height', height);
     return img;
+  }
+
+  setPlayer(bool){
+    this.player = bool;
   }
 }
 
@@ -98,7 +108,10 @@ class Map {
 
 test = new Case();
 matriceTest = new Matrix(10,10,0);
-mTC = new Matrix(80,80,test);
+mTC = new Matrix(1000,1000,test);
+cas1 = new Case();
+cas1.setPlayer(true);
+mTC.setValue(2,3,cas1);
 Mapping = new Map(mTC);
 Mapping.printMap();
 
