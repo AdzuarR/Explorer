@@ -26,9 +26,11 @@ class Case {
     return img;
   }
 
+  getPlayer(){
+    return this.player;  }
   setPlayer(bool){
-    this.player = bool;
-  }
+    this.player = bool;}
+
 }
 
 class Matrix {
@@ -108,7 +110,7 @@ class Map {
 
 test = new Case();
 matriceTest = new Matrix(10,10,0);
-mTC = new Matrix(1000,1000,test);
+mTC = new Matrix(10,10,test);
 cas1 = new Case();
 cas1.setPlayer(true);
 mTC.setValue(2,3,cas1);
