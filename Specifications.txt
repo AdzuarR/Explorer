@@ -1,18 +1,45 @@
 ==== EXPLORER ====
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=8=8=8=8= Une Adventure style ZELDA =8=8=8=8=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-objectives :
+##
+Expression des Besoins LOL :
+##
 
-A small adventure game like zelda with a home-made motor build from scratch
-with javascript. Maybee a bit of php.
-- Map, player, ennemy, objet, quest
+- Un moteur de jeu permettant d'afficher des "map", de faire se déplacer au tour par tour un 
+personnage, des "objets", des ennemis. Le joueur doit pouvoir explorer une carte, ramasser des
+objets, consommer des objets (potions etc), attaquer des ennemy et débloquer des énigme à l'aide 
+d'objets (type clé->Porte).
 
-ALPHA 1 :
-- Objectives :
-    - Functionalities to print a map of any width and height
-    - Functionalities to put player on the map
+Description générale du projet :
 
-- Test for alpha 1 :
+Petit jeu d'aventure style Zelda premier du nom. Programmé avec des langages standard sans
+frameworks.
 
--Object map
--Object case
--Object player
+##
+Spécification applicatives de l'application informatique
+##
+
+Description fonctionnelle générale :
+
+Le jeu est hébergé sur un simple server web en ligne. Il n'est pas rattaché à une base de donnée.
+Il est composé d'une page html, d'un fichier de script javascript qui contiendra les class, les fonctions
+et le code logique du jeu, et d'un fichier css.
+
+La page se chargera sur une page d'introduction avec plusieurs choix,
+ -Jouer
+ -Credits
+ -Contact
+
+En cliquant sur Jouer l'aventure commence!
+à gauche un panneau latéral avec l'inventaire et le statut du joueur (PV etc), au centre un tableau HTML construit
+en JS pour afficher la map du jeu avec le joueur, les objets, et les ennemy.
+Le joueur se déplace en appuyant sur les flèches directionnelle ou sur WASD (qwerty) ou ZQSD (azerty).
+Si il est sur une case avec un objet il le ramasse,
+Si il est adjecent à un ennemi il est attaquer, il peux riposter en appuyant sur la touche comme s'il voulait se 
+déplacer sur la case de l'ennemi
+Si il se présente devant une porte fermée et qu'il possède la clef pour la dévérouiller, celle-ci se dévérouille
+Si il perd tout ses points de vie, il meurt,
+Si il se place sur un escalier, ou une case de ''téléportation'' il peux changer de map
+

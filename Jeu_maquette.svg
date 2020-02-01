@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg888"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Jeu_maquette.svg">
+  <defs
+     id="defs882" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="463.14411"
+     inkscape:cy="445.71429"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata885">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <rect
+       style="opacity:1;fill:#c2ffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1433"
+       width="302.38095"
+       height="46.113098"
+       x="-0.75595242"
+       y="86.845245" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49.136906"
+       y="112.54762"
+       id="text1437"><tspan
+         sodipodi:role="line"
+         id="tspan1435"
+         x="49.136906"
+         y="112.54762"
+         style="stroke-width:0.26458332">Explorer : une Aventure Style ZELDA</tspan></text>
+    <rect
+       style="opacity:1;fill:#c2ffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1439"
+       width="180.67261"
+       height="167.82143"
+       x="61.988094"
+       y="132.20238" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="110.36904"
+       y="210.06549"
+       id="text1443"><tspan
+         sodipodi:role="line"
+         id="tspan1441"
+         x="110.36904"
+         y="210.06549"
+         style="stroke-width:0.26458332">CARTE A AFFICHER</tspan></text>
+    <rect
+       style="opacity:1;fill:#c2ffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1445"
+       width="61.988094"
+       height="55.940472"
+       x="-0.75595242"
+       y="132.95834" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="21.166666"
+       y="162.44049"
+       id="text1449"><tspan
+         sodipodi:role="line"
+         id="tspan1447"
+         x="21.166666"
+         y="162.44049"
+         style="stroke-width:0.26458332">Status</tspan><tspan
+         sodipodi:role="line"
+         x="21.166666"
+         y="175.66966"
+         style="stroke-width:0.26458332"
+         id="tspan1451">Joueur</tspan></text>
+    <rect
+       style="opacity:1;fill:#c2ffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1453"
+       width="62.744045"
+       height="111.12498"
+       x="-0.75595242"
+       y="188.89882" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="11.339286"
+       y="216.86905"
+       id="text1457"><tspan
+         sodipodi:role="line"
+         id="tspan1455"
+         x="11.339286"
+         y="216.86905"
+         style="stroke-width:0.26458332">Inventaire</tspan><tspan
+         sodipodi:role="line"
+         x="11.339286"
+         y="230.09822"
+         style="stroke-width:0.26458332"
+         id="tspan1459">du</tspan><tspan
+         sodipodi:role="line"
+         x="11.339286"
+         y="243.32738"
+         style="stroke-width:0.26458332"
+         id="tspan1461">joueur</tspan></text>
+    <rect
+       style="opacity:1;fill:#c2ffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1463"
+       width="57.452389"
+       height="167.06548"
+       x="242.66071"
+       y="132.20238" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="248.70833"
+       y="166.9762"
+       id="text1467"><tspan
+         sodipodi:role="line"
+         id="tspan1465"
+         x="248.70833"
+         y="166.9762"
+         style="stroke-width:0.26458332">Information</tspan><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="180.20537"
+         style="stroke-width:0.26458332"
+         id="tspan1469" /><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="193.43452"
+         style="stroke-width:0.26458332"
+         id="tspan1471">de</tspan><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="206.6637"
+         style="stroke-width:0.26458332"
+         id="tspan1473">quete ?</tspan><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="219.89287"
+         style="stroke-width:0.26458332"
+         id="tspan1475" /><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="233.12202"
+         style="stroke-width:0.26458332"
+         id="tspan1477">Infos</tspan><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="246.3512"
+         style="stroke-width:0.26458332"
+         id="tspan1479">Sur la </tspan><tspan
+         sodipodi:role="line"
+         x="248.70833"
+         y="259.58035"
+         style="stroke-width:0.26458332"
+         id="tspan1481">Carte</tspan></text>
+  </g>
+</svg>
