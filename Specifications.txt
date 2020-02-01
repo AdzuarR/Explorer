@@ -1,27 +1,30 @@
-==== EXPLORER ====
+			==== EXPLORER ====
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 =8=8=8=8= Une Adventure style ZELDA =8=8=8=8=
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-##
-Expression des Besoins LOL :
-##
+########
+## 0} ##  Expression des Besoins LOL :
+########
 
 - Un moteur de jeu permettant d'afficher des "map", de faire se déplacer au tour par tour un 
 personnage, des "objets", des ennemis. Le joueur doit pouvoir explorer une carte, ramasser des
-objets, consommer des objets (potions etc), attaquer des ennemy et débloquer des énigme à l'aide 
+objets, consommer des objets (potions etc), attaquer des ennemis et débloquer des énigmes à l'aide 
 d'objets (type clé->Porte).
 
-Description générale du projet :
+
+#######
+# I}  #  Description générale du projet :
+#######
 
 Petit jeu d'aventure style Zelda premier du nom. Programmé avec des langages standard sans
 frameworks.
 
-##
-Spécification applicatives de l'application informatique
-##
+#######
+# II} #  Spécification applicatives de l'application informatique
+#######
 
-Description fonctionnelle générale :
+## a} ## Description fonctionnelle générale :
 
 Le jeu est hébergé sur un simple server web en ligne. Il n'est pas rattaché à une base de donnée.
 Il est composé d'une page html, d'un fichier de script javascript qui contiendra les class, les fonctions
@@ -42,4 +45,157 @@ déplacer sur la case de l'ennemi
 Si il se présente devant une porte fermée et qu'il possède la clef pour la dévérouiller, celle-ci se dévérouille
 Si il perd tout ses points de vie, il meurt,
 Si il se place sur un escalier, ou une case de ''téléportation'' il peux changer de map
+
+## b} ## Ergonomie et Design utilisateur :
+
+Langue : Français uniquement, (Anglais en option)
+
+
+# Ecran de jeu #
+Voir jeu_maquette.svg
+
+Mapping des touches :
+
+- '←' ou 'q' => action aller à gauche
+- '→' ou 'd' => action aller à droite
+- '↑' ou 'z' => action aller en haut
+- '↓' ou 's' => action aller en bas
+
+- '<space>' => jouer un tour sur place
+
+- 'clic' sur objet de l'inventaire => Utilisation de l'objet
+
+= Si objet dans/sur la case ou le joueur veut se diriger => objet retirer de la case, ajouter à l'inventaire, et joueur déplacé sur la case
+= Si ennemy dans/sur la case ou le joueur veut se diriger => lancement d'une attaque, le joueur ne se déplace pas
+= Si obstacle dans/sur la case ou le joueur veut se diriger => le joueur ne se déplace pas
+= Si porte dans/sur la case visé par le joueur => Ouverture si joueur à la clef sinon rien, le joueur ne se déplace pas
+
+# Page d'accueil #
+Voir accueil_maquette.svg
+
+Page de présentation du jeu,
+Trois intéraction principale,
+	- Joueur au jeu
+	- Voirs les crédits
+	- Ouvrir le formulaire de contact (mail vers une boite dédiée ?)
+
+Quoi mettre dans le place holder de la maquette ?
+
+# Page de crédits #
+
+Page contenant les information sur l'équipe de développement, regroupant l'histoire des différentes version
+Avec peut être quelques auxtres informations ? (Licence, lien vers le github etc)
+
+
+########
+# III} # Spécification technique de l'application informatique
+########
+
+## a} ## Terminaux utilisateur :
+
+	Les utilisateur utiliserons leur propres matériel informatique pour se connecteur au jeu.
+	Le projet devra tourner sur n'importe quel navigateur desktop de façon native
+	En option : Implémentation pour terminaux mobile ?
+
+## b} ## Serveurs Informatique :
+
+	Le projet pourra être hebergé chez n'importe quel membres du projet durant la phase de conception.
+	Les sources seront ensuite librement téléchargeable et utilisables.
+	Le projet pourra être hebergé au nom de domaine http://arcologiste.fr/Explorer au moins jusqu'en Septembre 2020 (Propriété de M.Adzuar R.)
+	Fournisseur LWS
+	Le dimensionnement devrait être largement suffisant.
+
+## c} ## Volume de transaction :
+
+	Faible et léger, simple connexions par requête html
+	La disponibilité => Autant qu'c'est possible disponible
+	Pas d'outils de mesures prévue
+
+#######
+# IV} # Spécification de réalisation de l'application informatique
+#######
+
+## a} ## Objectifs de démonstration-fonctionnelle :
+
+	Avoir implémentée les différentes fonctionalités présentées ci-dessus à savoir :
+		- Afficher des map sous forme de tableau HTML
+		- Pouvoir Afficher des image de joueur, objets, et ennemis sur ces map
+		- Pouvoir déplacer le joueur, ramasser des objets, combattre des ennemis
+		- Pouvoir se déplacer d'une map à l'autre via esacalier ou case de téléportation (changement de map)
+		- Avoir une implémentation d'énigme (volontairement peu clair parce que je vois mal comment nous y prendre :P )
+	
+	Avoir l'ensemble du site fonctionnel :
+		- Page de présentation
+		- Page de jeu
+		- Page de crédits,
+		- Une fois la démonstration fonctionnelle en place, commencer l'historique des versions sur la page des crédits
+
+	Ouvrir une bouteille de champomy
+
+## b} ## Plan de travail, ressources, critères d'acceptation ;
+
+	Travail en collaboration avec toutes les bonnes volontés sur Git, Penser à signer le livre d'or et/ou signé les contributions
+	pour facilité l'actualisation des crédits et remerciements!
+	
+	Pour être tenu au courant sur le projet, et pour poser des questions et communiquer autour du projet utiliser le 
+	Framapad : 
+	https://hebdo.framapad.org/p/9ert-explorer_discussion?lang=fr
+	/!\ Framapad hebdomadaire, il disparaitra vite en cas de coupure sur le projet /!\
+	Soyez respectueux et ne supprimer pas vos questions ou celles des autres, même après réponse, cela pourrait permettre 
+	de remonter des erreurs, dans le doute gardons tout l'historique
+
+	Critère d'acception : Si le code ou documents produit fait avancer le projet, c'est accepté et ça part dans la branch Master
+	sur laquelle M. Adzuar garde pour le moment un contrôle absolu (Voir comment changer cela)
+
+## c} ## Calendrier approximatif
+
+	Compte tenu des cours, utilisons dans un premier temps un calendrier relatif et non absolu.
+
+	Phase 1 : Construction des spécifications du projet ;
+
+		#### PHASE ACTUELLE ####
+
+		= Production d'un 'cahiers des charges' dans le fichier Specifications.txt
+		= Production des diagrammes de classes du projet
+		= Production des diagrammes d'utilisation du projet
+
+		= Répertorier les points chauds en terme d'algorithme pour mener à bien le projet
+		= Bien organiser les bonnes volonté
+
+		= Affiner les maquettes visuelles (notamment pour le jeu en lui même)
+
+	Phase 2 : 
+
+		= Construction des tests unitaires pour chaques classes à produire
+		= Construction des tests unitaires pour les fonctions du projet
+		= Implémentation des classes et des fonctions du projet (Répartition du travail par fichier)
+
+		= Affinage de visuels du jeu 
+			- TileSet pour la carte
+			- image du personnage, des objets, des ennemis
+			- visuel pour les différentes pages du site
+
+	Phase 3 :
+
+		= Implémentation des tests fonctionnels du projet dans son ensembles
+		= Correction des classes et fonction selon le besoin
+		= Implémentation de la logique du jeu
+
+		= Amélioration des visuels si nécessaire
+
+	Phase 4 :
+
+		= Refactoring de certains algos selon le besoin
+		= Touche finale sur les visuels
+
+		= Livraison de la démonstration fonctionnelle
+		= Pôt!
+
+
+
+
+
+
+
+
 
