@@ -16,3 +16,4 @@ Zelda like projet with javascript
 + Appel des fichiers JS dans index.html
 + Test bout de code addEventListener avec Keydown, ca marche!
 + Discussion avec Alexandre sur le diagramme UML et les classes du projet
++ Ajout des zones pour les tests unitaires
