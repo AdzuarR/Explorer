@@ -27,8 +27,8 @@ frameworks.
 ## a} ## Description fonctionnelle générale :
 
 Le jeu est hébergé sur un simple server web en ligne. Il n'est pas rattaché à une base de donnée.
-Il est composé d'une page html, d'un fichier de script javascript qui contiendra les class, les fonctions
-et le code logique du jeu, et d'un fichier css.
+Il est composé d'une page html, des fichiers de scripts javascript qui contiendront une classe par fichier
+et des tests unitaires, les fonctions et le code logique du jeu, et d'un fichier de style css.
 
 La page se chargera sur une page d'introduction avec plusieurs choix,
  -Jouer

@@ -1,4 +1,9 @@
 
+let a = "42"
+
+printlet(a);
+console.log("fin appel de printlet");
+
 class Case {
   // Object which represent a tile of the game map
   constructor() {
