@@ -46,6 +46,7 @@ class Matrix {
       this.height = height;
       this.values = new Array();
       let i = 0;
+      // Initialise la liste des valeurs pour la matrice
       while (i < width*height) {
         this.values[i] = defaultValue;
         i++;
@@ -80,13 +81,14 @@ class Map {
 
   printMap(){
     let table = document.getElementById("map");
-    let row = table.insertRow();
-    let cell = row.insertCell();
-    cell.textContent = "prout";
-    let cell2 = row.insertCell();
-    cell2.textContent = "BOB";
+    // let row = table.insertRow();
+    // let cell = row.insertCell();
+    // cell.textContent = "prout";
+    // let cell2 = row.insertCell();
+    // cell2.textContent = "BOB";
 
 
+    // Supprime l'ancien Tableau
     while (table.firstChild) {
       table.removeChild(table.firstChild);
     }
@@ -113,6 +115,8 @@ class Map {
 
 // Test Area
 
+
+
 test = new Case();
 matriceTest = new Matrix(10,10,0);
 mTC = new Matrix(10,10,test);
@@ -134,3 +138,14 @@ console.log(mTC.getLines());
 
 mTC.setValue(2,1,5);
 mTC.getValue(2,1);
+
+function prout(){
+  console.log("Click salope");
+}
+
+
+let body = document.getElementById("map");
+document.addEventListener("keydown", (event) => { const touch = event.key;
+  console.log(touch);
+
+}, false);
