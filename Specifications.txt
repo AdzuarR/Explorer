@@ -143,15 +143,16 @@ Avec peut être quelques auxtres informations ? (Licence, lien vers le github et
 	/!\ Framapad hebdomadaire, il disparaitra vite en cas de coupure sur le projet /!\
 	Soyez respectueux et ne supprimer pas vos questions ou celles des autres, même après réponse, cela pourrait permettre 
 	de remonter des erreurs, dans le doute gardons tout l'historique
-	/!\ Draw.io pour l'UML /!\
 	
 
 	Critère d'acception : Si le code ou documents produit fait avancer le projet, c'est accepté et ça part dans la branch Master
 	sur laquelle M. Adzuar garde pour le moment un contrôle absolu (Voir comment changer cela)
 
 	Ressources :
-		- https://www.piskelapp.com/
-		- https://www.spriters-resource.com/search/?q=tileset
+		
+		- #FRAMAPAD#	https://hebdo.framapad.org/p/9ert-explorer_discussion?lang=fr	
+		- #PIXEL ART# 	https://www.piskelapp.com/
+		- #Sprite bank#	https://www.spriters-resource.com/search/?q=tileset
 
 ## c} ## Calendrier approximatif
 
