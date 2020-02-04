@@ -75,7 +75,7 @@ class Matrix {
 
 class Map {
   // Used for showing the main fram in html format
-  constructor(matrix){
+  constructor(matrix, ){
     this.matrix = matrix;
   }
 
