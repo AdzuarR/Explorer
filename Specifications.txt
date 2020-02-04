@@ -70,6 +70,9 @@ Mapping des touches :
 = Si obstacle dans/sur la case ou le joueur veut se diriger => le joueur ne se déplace pas
 = Si porte dans/sur la case visé par le joueur => Ouverture si joueur à la clef sinon rien, le joueur ne se déplace pas
 
+- Chargement de la map => un fichier .txt contenant l'information de la map est chargé et envoyé à un objet Matrix, traité par un objet Map, puis
+affiché à l'écran
+
 # Page d'accueil #
 Voir accueil_maquette.svg
 
@@ -123,7 +126,8 @@ Avec peut être quelques auxtres informations ? (Licence, lien vers le github et
 		- Pouvoir déplacer le joueur, ramasser des objets, combattre des ennemis
 		- Pouvoir se déplacer d'une map à l'autre via esacalier ou case de téléportation (changement de map)
 		- Avoir une implémentation d'énigme (volontairement peu clair parce que je vois mal comment nous y prendre :P )
-	
+		- Pouvoir convertir des fichier txt en une liste plate pour les transmettres à la class Matrix	
+
 	Avoir l'ensemble du site fonctionnel :
 		- Page de présentation
 		- Page de jeu
@@ -165,8 +169,16 @@ Avec peut être quelques auxtres informations ? (Licence, lien vers le github et
 		= Production d'un 'cahiers des charges' dans le fichier Specifications.txt
 		= Production des diagrammes de classes du projet
 		= Production des diagrammes d'utilisation du projet
+		= Production d'un Json gérant les informations du jeu
 
 		= Répertorier les points chauds en terme d'algorithme pour mener à bien le projet
+			- Ouvrir fichier.txt avec JS et transmettre ses infos dans une liste plates, ex :
+			0,0,
+			0,1  => devient une liste [0,0,0,1]
+			- Comportement des entité non joueur mouvantes
+			- gestion de la téléportation d'une salle à l'autre
+
+
 		= Bien organiser les bonnes volonté
 
 		= Affiner les maquettes visuelles (notamment pour le jeu en lui même)
