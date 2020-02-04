@@ -1,21 +1,27 @@
 // Class contenant une matrice de valeur et l'API pour acceder à ces valeurs
 
 class Matrix{
-  constructor(){
-    this.width = null;
-    this.height = null;
+  constructor(width,height,defaultValue=0){
+    this.width = width;
+    this.height = height;
     this.values = [];
   }
 
-  getWidth(){}
-  getHeight(){}
+  getWidth(){
+    return this.width; 
+  }
 
-  getValue(){}
+  getHeight(){
+    return this.height;
+  }
 
-  setValue(){}
+  getValue(lin,col){
+    return this.values[lin*this.width+col];
+  }
 
-
-
+  setValue(lin,col,valeur){
+    this.values[x*this.width+y] = valeur;
+  }
 }
 
 /*
@@ -25,3 +31,10 @@ class Matrix{
 * ############################################################################
 *
 */
+
+let x = 4;
+let y = 5;
+Matrice = new Matrix(x,y);
+console.log(Matrice.getWidth());
+console.log(Matrice.getHeight());
+
