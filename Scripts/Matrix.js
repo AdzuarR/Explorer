@@ -1,14 +1,14 @@
 // Class contenant une matrice de valeur et l'API pour acceder à ces valeurs
 
 class Matrix{
-  constructor(width,height,defaultValue=0){
-    this.width = width;
-    this.height = height;
-    this.values = [];
+  constructor(DicoMat){
+    this.width = DicoMat['width'];
+    this.height = DicoMat['height'];
+    this.values = DicoMat['valuesList'];
   }
 
   getWidth(){
-    return this.width; 
+    return this.width;
   }
 
   getHeight(){
@@ -29,12 +29,15 @@ class Matrix{
 * ############################################################################
 * # ZONE DE TEST UNITAIRES ########################## ZONE DE TEST UNITAIRES #
 * ############################################################################
-*
 */
 
-let x = 4;
-let y = 5;
-Matrice = new Matrix(x,y);
+Mat = {"height":3,
+  "width" : 5,
+  "valuesList" : [0,1,2,3,4,
+                  1,2,3,4,5,
+                  2,3,4,5,6]
+                }
+
+Matrice = new Matrix(Mat);
 console.log(Matrice.getWidth());
 console.log(Matrice.getHeight());
-

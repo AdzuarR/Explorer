@@ -28,10 +28,10 @@ class Map{
     for (let i = 0; i < this.matrice.getHeight(); i++){
       let row = table.insertRow();
 
-      for (let j = 0; j < this.matrice.getWidth(); i++){
+      for (let j = 0; j < this.matrice.getWidth(); j++){
         let cell = row.insertCell();
 
-        cell.appendChild(this.matrice.getValue(i,j));
+        cell.textContent = this.matrice.getValue(i,j);
 
       }
 
