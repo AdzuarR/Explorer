@@ -10,7 +10,7 @@ class Matrix{
 
       //let valueSrc = DicoMat["valueList"][i];
 
-      this.values[i] = test;
+      this.values[i] = new Case(DicoMat['valuesList'][i]);
 
     }
   }
@@ -43,11 +43,11 @@ test = new Case(0);
 
 Mat = {"height":3,
   "width" : 5,
-  "valuesList" : [0,0,0,0,0,
-                  0,0,0,0,0,
-                  0,0,0,0,0]
+  "valuesList" : [0,0,0,0,1,
+                  0,1,0,0,0,
+                  0,0,0,0,1]
                 }
 
-Matrice = new Matrix(Mat);
+Matrice = new Matrix(matrice1);
 console.log(Matrice.getWidth());
 console.log(Matrice.getHeight());

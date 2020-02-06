@@ -1,20 +1,23 @@
-var Matrice1 = {
-  "height" : 3,
-  "width" : 4,
-  "matrix" : [
-    0,0,0,0,
-    0,0,0,0,
-    0,0,0,0
-  ],
-  "list_src" : {
-    0 : "./imgs/perso.png"
-  }
+var matrice1 = {
+  "height" : 4,
+  "width" : 5,
+  "valuesList" : [
+    0,0,0,0,1,
+    0,0,0,1,0,
+    0,0,1,0,0,
+    0,0,0,0,0
+  ]
 }
 
 var list_Cases = {
   0 : {
     "name" : "default",
     "src" : "./imgs/default.png",
-    "solide" : false
+    "solid" : false
+  },
+  1 : {
+    "name" : "joueur",
+    "src" : "./imgs/perso.png",
+    "solid" : true
   }
 }
