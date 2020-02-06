@@ -31,7 +31,7 @@ class Map{
       for (let j = 0; j < this.matrice.getWidth(); j++){
         let cell = row.insertCell();
 
-        cell.textContent = this.matrice.getValue(i,j);
+        cell.innerHTML = this.matrice.getValue(i,j).to_img();
 
       }
 

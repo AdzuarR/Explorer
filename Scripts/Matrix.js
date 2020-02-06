@@ -4,7 +4,15 @@ class Matrix{
   constructor(DicoMat){
     this.width = DicoMat['width'];
     this.height = DicoMat['height'];
-    this.values = DicoMat['valuesList'];
+    this.values = [];
+
+    for (let i = 0; i <this.width*this.height; i++){
+
+      //let valueSrc = DicoMat["valueList"][i];
+
+      this.values[i] = test;
+
+    }
   }
 
   getWidth(){
@@ -31,11 +39,13 @@ class Matrix{
 * ############################################################################
 */
 
+test = new Case(0);
+
 Mat = {"height":3,
   "width" : 5,
-  "valuesList" : [0,1,2,3,4,
-                  1,2,3,4,5,
-                  2,3,4,5,6]
+  "valuesList" : [0,0,0,0,0,
+                  0,0,0,0,0,
+                  0,0,0,0,0]
                 }
 
 Matrice = new Matrix(Mat);

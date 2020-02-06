@@ -26,6 +26,11 @@ Zelda like projet with javascript
 + Création dossier Maps avec Liste_Maps.txt contenant les données de map au
 / format json
 
-2020/02/05 :
+2020/02/06 :
 
-+
++ Modif matrix.js, map.js, case.js pour pouvoir charger une matrice depuis un
+/ format json
++ Modif case.js pour pouvoir charger une case depuis un format json
++ Les json sont tous stocker dans Liste_Maps.js => A changer pour être plus
+/ propre à l'avenir
++ Commit
