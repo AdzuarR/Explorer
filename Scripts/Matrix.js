@@ -28,7 +28,7 @@ class Matrix{
   }
 
   setValue(lin,col,valeur){
-    this.values[x*this.width+y] = valeur;
+    this.values[lin*this.width+col] = new Case(valeur);
   }
 }
 
@@ -38,15 +38,6 @@ class Matrix{
 * # ZONE DE TEST UNITAIRES ########################## ZONE DE TEST UNITAIRES #
 * ############################################################################
 */
-
-test = new Case(0);
-
-Mat = {"height":3,
-  "width" : 5,
-  "valuesList" : [0,0,0,0,1,
-                  0,1,0,0,0,
-                  0,0,0,0,1]
-                }
 
 Matrice = new Matrix(matrice1);
 console.log(Matrice.getWidth());

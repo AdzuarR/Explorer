@@ -11,7 +11,16 @@ class Map{
   */
 
   constructor(mat){
-    this.matrice = mat;
+    this.matrice = new Matrix(mat);
+    this.matriceCopie = new Matrix(mat);
+  }
+
+  setPlayer(lin, col){
+    this.matriceCopie.setValue(lin,col,1);
+  }
+
+  testMov(x,y){
+    let valeurOriginale = this.matrice.getValue()
   }
 
   printMap(){
@@ -25,13 +34,13 @@ class Map{
     while (table.firstChild){
       table.removeChild(table.firstChild);
     }
-    for (let i = 0; i < this.matrice.getHeight(); i++){
+    for (let i = 0; i < this.matriceCopie.getHeight(); i++){
       let row = table.insertRow();
 
-      for (let j = 0; j < this.matrice.getWidth(); j++){
+      for (let j = 0; j < this.matriceCopie.getWidth(); j++){
         let cell = row.insertCell();
 
-        cell.innerHTML = this.matrice.getValue(i,j).to_img();
+        cell.innerHTML = this.matriceCopie.getValue(i,j).to_img();
 
       }
 
@@ -49,6 +58,6 @@ class Map{
 *
 */
 
-Test_map = new Map(Matrice);
-
+Test_map = new Map(matrice1);
+Test_map.setPlayer(2,2);
 Test_map.printMap();
