@@ -212,6 +212,20 @@ Avec peut être quelques auxtres informations ? (Licence, lien vers le github et
 
 
 
+	Boucle de jeu :
+		- while(true){
+						- Intput
+						- FaitActionInput
+						- FaitActionObjet
+						- RefreshObjet
+						- Affichage
+					}
+
+	Pensé du feature:
+		- Mini-map
+
+
+
 
 
 
