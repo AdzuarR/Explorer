@@ -34,3 +34,11 @@ Zelda like projet with javascript
 + Les json sont tous stocker dans Liste_Maps.js => A changer pour être plus
 / propre à l'avenir
 + Commit
+
+2020/02/07 :
+
++ Diagramme de classes Fait
+
+2020/02/08 :
+
++ Creation des fichiers de classes
