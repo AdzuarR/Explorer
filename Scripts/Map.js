@@ -13,6 +13,7 @@ class Map{
   constructor(mat){
     this.matrice = new Matrix(mat);
     this.matriceCopie = new Matrix(mat);
+
   }
 
   setPlayer(lin, col){
@@ -20,7 +21,8 @@ class Map{
   }
 
   testMov(x,y){
-    let valeurOriginale = this.matrice.getValue()
+    let valeurOriginale = this.matrice.getValue(2,2);
+    this.matriceCopie.setValue(2,2,valeurOriginale);
   }
 
   printMap(){
@@ -60,4 +62,5 @@ class Map{
 
 Test_map = new Map(matrice1);
 Test_map.setPlayer(2,2);
+Test_map.testMov();
 Test_map.printMap();

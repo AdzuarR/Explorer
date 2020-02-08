@@ -6,7 +6,8 @@ var matrice1 = {
     0,0,0,0,0,
     0,0,0,0,0,
     0,0,0,0,0
-  ]
+  ],
+  "src_minimap" = "minimap.png"
 }
 
 var list_Cases = {
